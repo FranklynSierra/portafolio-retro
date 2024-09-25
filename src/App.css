@@ -1,38 +1,356 @@
+
 .App {
+  /* text-align: center; */
+  background: #14171a;
+  color: #fff;
+}
+.AppLight{
+  background: #ffffff;
+  color: #14171a;
+}
+
+
+a{
+  text-decoration: none;
   text-align: center;
+  color: transparent;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  height:100%;
+  margin:0;
   display: flex;
   flex-direction: column;
+  
+}
+.topheader{
+
+position: fixed;
+ 
+
+
+left: 0;
+top: 0;
+width: 100%;
+z-index: 2;
+}
+
+.topnav{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: auto;
+
+}
+.topnav .linkName{
+  display: flex;
+  
   align-items: center;
+ font-weight: 700;
+
+
+}
+.menu{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+  align-items: center;
+ justify-content: flex-start;
+ 
+}
+.menu span{
+  padding: 0 15px;
+ font-weight: 600;
+
+text-transform: uppercase;
+position: relative;
+}
+
+.link.active{
+  padding-bottom: 12px;
+  border-bottom: 3px solid #209CEE;
+}
+.menu span:hover{
+  color: #209CEE;
+}
+.close-menu{
+  background-color: #fff;
+}
+
+
+.open-menu,.close-menu{
+display: none;
+
+}
+
+.principalName{
+ padding-top:220px ;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* width: 100%; */
+  height: 500px;
+ 
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.text-name{
+
+text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.my-name{
+  margin-bottom: 50px;
+  
+}
+.nameLinks{
+  /* background-color: aqua; */
+text-align: center;
+margin: 20px;
+}
+.nameLinks button{
+  margin: 20px;
+}
+
+#about{
+  
+  margin-top: 180px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#about div{
+  
+  width: 98%;
+}
+.devathon{
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.subdevathon{
+  width: 98%;
+}
+
+.skils h1{
+  margin-top: 50px;
+ text-align: center;
+
+}
+.subSkills {
+ width: 100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+
+ .principalProyect{
+   margin: 60px;
+ }
+ .proyects{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ }
+ .proyecto-1,.proyecto-2,.proyecto-3,.proyecto-4{
+  width: 500px;
+  
+ }
+
+.proyecto-1 .proyecto{
+ width: 100%;
+ height: 200px;
+ transition: box-shadow 1s transform;
+ background: url('./img/unsplash.png') no-repeat center;
+background-size: cover;
+border-radius: 5px;
+transition: box-shadow .1s, transform;
+
+}
+.proyecto div span{
+  text-align: end;
+}
+.proyecto-2 .proyecto{
+  width: 100%;
+  height: 200px;
+  transition: box-shadow 1s transform;
+  background: url('./img/marvel.png') no-repeat center;
+ background-size: cover;
+ border-radius: 5px;
+ transition: box-shadow .1s, transform;
+ }
+ .proyecto-3 .proyecto{
+  width: 100%;
+  height: 200px;
+  transition: box-shadow 1s transform;
+  background: url('./img/hollow.png') no-repeat center;
+ background-size: cover;
+ border-radius: 5px;
+ transition: box-shadow .1s, transform;
+ }
+ .proyecto-4 .proyecto{
+  width: 100%;
+  height: 200px;
+  transition: box-shadow 1s transform;
+  background: url('./img/portafolio.png') no-repeat center;
+ background-size: cover;
+ border-radius: 5px;
+ transition: box-shadow .1s, transform;
+ }
+ 
+ .proyecto:hover{
+   box-shadow:0px 0px 50px rgba(0, 0, 0, 1);
   }
-  to {
-    transform: rotate(360deg);
+  .freecode{
+    margin-top: 100px;
   }
+  .educationMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  .educationMain div{
+    width: 95%;
+  
+  }
+  .principalForm{
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+  .containForm{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  fieldset input{
+    width: 100%;
+    
+  }
+  label{
+    text-align: center;
+  }
+  .skill,.eventos li,h2,p{
+    view-timeline-name: --image ;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name:show;
+    animation-range: entry 25% cover 20%;
+    animation-fill-mode: both;
+ 
+  
+ 
+  }
+  
+@keyframes show {
+  from{
+    opacity: 0;
+    scale: 25%;
+  }
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+}
+@media (max-width:950px) {
+  .principalName{
+    
+    padding-top: 125px;
+    height: 100%;
+   
+  }
+
+  .about div {
+    
+    width: 99%;
+  }
+
+  .search {
+    flex-direction: column;
+  }
+
+  .proyects{
+    display: block;
+  
+    }
+    .proyecto-1,.proyecto-2,.proyecto-3,.proyecto-4{
+      /* padding-top: 20px; */
+      width: 100%;
+      
+     }
+    
+.mainProject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+  .menu{
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+ 
+    overflow-y: auto;
+    opacity: 0;
+   
+    pointer-events: none;
+    transition: opacity 0.5s;
+    
+  }
+  .menu .link{
+    padding: 0;
+    line-height: 60px;
+  }
+  .open-menu,.close-menu{
+    display: block;
+    border: none;
+  background: none;
+  }
+ 
+  .close-menu{
+    align-self: flex-end;
+    padding: 45px 55px;
+    
+
+  }
+ 
+  .menu_opened{
+    opacity: 1;
+    pointer-events: all;
+  }
+  .menu span::after{
+    content: none;
+   
+  }
+  
+  .menu span:hover,.menu span.selected {
+    color: #209CEE;
+  } 
+  .skill{
+   padding: 20px;
+    width: 95%;
+  
+ 
+  }
+
 }
