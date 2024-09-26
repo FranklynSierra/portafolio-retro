@@ -171,11 +171,11 @@ margin: 20px;
   
  }
 
-.proyecto-1 .proyecto{
+.proyecto-1 .proyecto,.proyecto-2 .proyecto, .proyecto-3 .proyecto,.proyecto-4 .proyecto{
  width: 100%;
  height: 200px;
  transition: box-shadow 1s transform;
- background: url('./img/unsplash.png') no-repeat center;
+ 
 background-size: cover;
 border-radius: 5px;
 transition: box-shadow .1s, transform;
@@ -184,33 +184,8 @@ transition: box-shadow .1s, transform;
 .proyecto div span{
   text-align: end;
 }
-.proyecto-2 .proyecto{
-  width: 100%;
-  height: 200px;
-  transition: box-shadow 1s transform;
-  background: url('./img/marvel.png') no-repeat center;
- background-size: cover;
- border-radius: 5px;
- transition: box-shadow .1s, transform;
- }
- .proyecto-3 .proyecto{
-  width: 100%;
-  height: 200px;
-  transition: box-shadow 1s transform;
-  background: url('./img/hollow.png') no-repeat center;
- background-size: cover;
- border-radius: 5px;
- transition: box-shadow .1s, transform;
- }
- .proyecto-4 .proyecto{
-  width: 100%;
-  height: 200px;
-  transition: box-shadow 1s transform;
-  background: url('./img/portafolio.png') no-repeat center;
- background-size: cover;
- border-radius: 5px;
- transition: box-shadow .1s, transform;
- }
+
+
  
  .proyecto:hover{
    box-shadow:0px 0px 50px rgba(0, 0, 0, 1);

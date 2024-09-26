@@ -43,7 +43,7 @@ export default function TopBar() {
        
         <ul ref={menu} style={contextTheme?{background:'#14171a'}:{background:'#fff'}}className={click ? "menu selected" : "menu"}>
        
-        <button onClick={toggleMenu}   className={contextTheme?'close-menu nes-container is-rounded is-dark':'close-menu  nes-container is-rounded '} aria-label='close menu'>
+        <button onClick={toggleMenu} style={contextTheme?{background:'#14171a'}:{background:'#fff'}}  className={contextTheme?'close-menu nes-container is-rounded is-dark':'close-menu  nes-container is-rounded '} aria-label='close menu'>
         <i class="nes-icon close is-large"></i>
        </button>
        
