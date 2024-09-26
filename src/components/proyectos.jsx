@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 import { useThemeContext } from '../context/ThemeContext'
-import proyecto1 from '../img/unsplash.png'
-import proyecto2 from '../img/marvel.png'
-import proyecto3 from '../img/hollow.png'
-import proyecto4 from '../img/portafolio.png'
+import proyecto1 from 'img/unsplash.png'
+import proyecto2 from 'img/marvel.png'
+import proyecto3 from 'img/hollow.png'
+import proyecto4 from 'img/portafolio.png'
 
 export default function Proyectos() {
   const ref = useRef()
