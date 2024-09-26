@@ -1,5 +1,5 @@
 import React, {  useRef, useState } from 'react'
-import lines from 'img/hamburger-icon.svg' 
+import lines from './img/hamburger-icon.svg' 
 import { Link } from 'react-scroll'
 import { useThemeContext } from '../context/ThemeContext'
 
