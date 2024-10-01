@@ -129,7 +129,7 @@ export default function Proyectos() {
               <p className="title">Unsplah Copy</p>
               <img src={proyecto1} alt='proyect' className='proyecto' onMouseOut={mouseaout} onMouseMove={handleMove} ref={ref}/>
               <p> <span className="nes-text is-error ">Html</span> <span className="nes-text is-primary">CSS</span> <span className="nes-text " style={{ color: '#00C6F7' }}>React</span> <span className="nes-text is-warning" >Javascript</span></p>
-              <p>to search and download all types of images with the unsplash api</p>
+              <p>This project helps you search and download all kinds of images of whatever you want with the unsplash api</p>
               <a href='https://franklynsierra.github.io/unsplash-page-copy/' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-primary">Visit Page</button></a>
               <a href='https://github.com/FranklynSierra/unsplash-page-copy' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-error">Repository</button></a>
             </div>

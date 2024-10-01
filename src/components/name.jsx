@@ -62,7 +62,7 @@ checked={checked}
 />
          <div className='text-name'>
           <h1 className='my-name'>Hi!!<i className="nes-icon coin is-medium"></i> My name is <span className="nes-text is-primary">Franklyn Sierra</span></h1>
-          <h2 ><span className="nes-text is-success text buttonPagereverse"ref={el}></span> with <span className="nes-text is-error"> 3 years of experience</span> in web development</h2>
+          <h3 ><span className="nes-text is-success text buttonPagereverse"ref={el}></span> with <span className="nes-text is-error"> 3 years of experience</span> in web development</h3>
       
         </div>
         <div className='nameLinks'>
