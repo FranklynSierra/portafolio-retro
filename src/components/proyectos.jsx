@@ -120,7 +120,7 @@ export default function Proyectos() {
   return (
     <div id='proyects'  className='principalProyect' >
      <div>
-      <h1 style={{ textAlign: 'center' }}>My proyects<i className="nes-icon is-large star"></i></h1>
+      <h1 style={{ textAlign: 'center' }}>My projects<i className="nes-icon is-large star"></i></h1>
       <div className='mainProject'>
         <div>
           <div className='proyects'>
