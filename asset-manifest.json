@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio-retro/static/css/main.bf7e67dd.css",
-    "main.js": "/portafolio-retro/static/js/main.02498e72.js",
+    "main.css": "/portafolio-retro/static/css/main.51e8fb35.css",
+    "main.js": "/portafolio-retro/static/js/main.e50c6715.js",
     "static/js/453.56132e08.chunk.js": "/portafolio-retro/static/js/453.56132e08.chunk.js",
     "static/media/unsplash.png": "/portafolio-retro/static/media/unsplash.0a9e3b43a8e43dc728e8.png",
     "static/media/marvel.png": "/portafolio-retro/static/media/marvel.4161cd798a0b24b9079e.png",
@@ -9,12 +9,12 @@
     "static/media/portafolio.png": "/portafolio-retro/static/media/portafolio.d6739b1523c67dfea250.png",
     "index.html": "/portafolio-retro/index.html",
     "static/media/hamburger-icon.svg": "/portafolio-retro/static/media/hamburger-icon.c975f9b23d6961b13c51ea3c496953e2.svg",
-    "main.bf7e67dd.css.map": "/portafolio-retro/static/css/main.bf7e67dd.css.map",
-    "main.02498e72.js.map": "/portafolio-retro/static/js/main.02498e72.js.map",
+    "main.51e8fb35.css.map": "/portafolio-retro/static/css/main.51e8fb35.css.map",
+    "main.e50c6715.js.map": "/portafolio-retro/static/js/main.e50c6715.js.map",
     "453.56132e08.chunk.js.map": "/portafolio-retro/static/js/453.56132e08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf7e67dd.css",
-    "static/js/main.02498e72.js"
+    "static/css/main.51e8fb35.css",
+    "static/js/main.e50c6715.js"
   ]
 }
