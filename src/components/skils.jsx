@@ -20,7 +20,7 @@ export default function Skils() {
           <br/>
          <div className='skill'>
           <div className={contextTheme?'nes-container is-dark with-title ':'nes-container with-title is-centered'}>
-            <p className="title">Software/Apps/Programs</p>
+            <p className="title titleProgram">Software/Programs</p>
             <p><span className="nes-text is-primary">Visual Studio Code</span> <span style={{ color: '#E94E31' }} className="nes-text ">Git</span> <span style={{ color: '#5968BA' }} className="nes-text ">GitHub</span> </p>
           </div>
           </div>

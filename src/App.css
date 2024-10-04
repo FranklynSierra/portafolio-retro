@@ -224,6 +224,19 @@ transition: box-shadow .1s, transform;
   
 
 @media (max-width:950px) {
+  .titleProgram{
+    font-size: 50px;
+  }
+  .topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+  
+  }
+  .topnav a{
+    font-size: 14px;
+  }
   .principalName{
     
     padding-top: 125px;
@@ -308,5 +321,8 @@ transition: box-shadow .1s, transform;
   
  
   }
-
+  .subSkills div{
+    width: 100%;
+   
+   }
 }

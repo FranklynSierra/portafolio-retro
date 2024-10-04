@@ -9,7 +9,7 @@ export default function SobreMi() {
 
     <div className='about' id='about'>
       <div>
-        <h1 className="title" style={{ textAlign: 'center' }}>About Me<i class="nes-icon is-medium heart"></i></h1>
+        <h1 className="title" style={{ textAlign: 'center' }}>About Me<i className="nes-icon is-medium heart"></i></h1>
 
         <div className={contextTheme?'nes-container is-rounded is-dark':'nes-container is-rounded'}>
 

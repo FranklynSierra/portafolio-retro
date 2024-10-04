@@ -6,7 +6,7 @@ export default function Formacion() {
     
     return (
         <div id='freecode' className='freecode'>
-            <h1  style={{textAlign:'center'}}>Certificate<i class="snes-logo"></i></h1>
+            <h1  style={{textAlign:'center'}}>Certificate<i className="snes-logo"></i></h1>
             <div className='educationMain'>
                 <div>
                     <div style={{marginBottom:'50px'}} className={contextTheme?'nes-container is-dark with-title ':'nes-container with-title is-centered'} >
