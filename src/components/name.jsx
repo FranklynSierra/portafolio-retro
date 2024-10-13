@@ -4,12 +4,13 @@ import React from 'react'
 import Typed from 'typed.js';
 import { useThemeContext } from '../context/ThemeContext';
 import ReactSwitch from 'react-switch';
+import CopyToClipboard from 'react-copy-to-clipboard';
+import { toast, ToastContainer } from 'react-toastify';
 
 export default function Name() {
  const el=useRef(null)
  const {contextTheme}=useThemeContext()
  const {setContextTheme} = useThemeContext()
- 
  const [checked, setChecked] = useState(false);
  const handleSwitch=(nex)=>{
    setContextTheme((state) => (state === true ? false:true))  
@@ -39,6 +40,28 @@ export default function Name() {
     typed.destroy();
   };
  }, []);
+
+ const handleSubmit = (e) => {
+
+  
+     toast.success('you copied my email :)', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      
+      }
+     )
+
+
+}
+
+
+
   return (
     <div  id='home' className='principalName '>
 
@@ -68,7 +91,8 @@ checked={checked}
         <div className='nameLinks'>
           <a href='https://www.linkedin.com/in/franklyn-enrique-sierra-contreras-3b036a230/' target='_blank' rel="noreferrer"><button type="button" className="nes-btn is-primary"><i className="nes-icon linkedin is-medium"></i></button></a>
           <a href='https://github.com/FranklynSierra' target='_blank' rel="noreferrer"><button type="button" className="nes-btn is-success"><i className="nes-icon github is-medium"></i></button></a>
-          {/* <a href='franklynssierracontreras@gmail.com' target='_blank'><button type="button" class="nes-btn is-error"><i class="nes-icon gmail is-medium"></i></button></a> */}
+          <CopyToClipboard text='franklynssierracontreras@gmail.com'><button onClick={()=>handleSubmit()} type="button" class="nes-btn is-error"><i class="nes-icon gmail is-medium"></i></button></CopyToClipboard>
+        <ToastContainer />
         </div>
       </div>
     </div>
