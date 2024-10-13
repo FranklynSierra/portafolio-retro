@@ -138,8 +138,8 @@ export default function Proyectos() {
               <img src={proyecto2} alt='proyect' className='proyecto' onMouseOut={mouseaout} onMouseMove={handleMove2} ref={ref2}/>
               <p> <span className="nes-text is-error ">Html</span> <span className="nes-text is-primary">CSS</span> <span className="nes-text " style={{ color: '#00C6F7' }}>React</span></p>
               <p>search for everything related to marvel, comics, characters, events, etc..., with the marvel api</p>
-              <a href='https://franklynsierra.github.io/marvel/' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-primary">Visit Page</button></a>
-              <a href='https://github.com/FranklynSierra/marvel' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-error">Repository</button></a>
+              <a href='https://franklynsierra.github.io/marvel-app/' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-primary">Visit Page</button></a>
+              <a href='https://github.com/FranklynSierra/marvel-app' rel="noopener noreferrer" target='_blank'><button type="button" className="nes-btn is-error">Repository</button></a>
             </div>
 
 
